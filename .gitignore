@@ -1,0 +1,13 @@
+# Secrets, credentials and local data. NEVER commit these.
+# NOTE: this repo is PUBLIC. Keep every secret out of it.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.sqlite
+*.db
+*secret*
+
+.hq-key
